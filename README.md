@@ -64,31 +64,34 @@ Las marcas utilizadas son las líneas con posición horizontal y vertical, las c
  
 **T1, T2 y T3**:  4 gráficos que usan el idioma de "Line chart" donde en el eje **x** se ubica las fechas con intervalos de semana a semana, en el eje **y** se ubican los valores en moneda de Valor Planeado, Valor ganado y Costo Actual, usando el canal del color para cada uno de ellos.  
 
-![image](https://cloud.githubusercontent.com/assets/13947710/19095498/86aa1b54-8a5b-11e6-97cd-985011271fbf.png)
-
+<p align="center"> 
+<img src="https://cloud.githubusercontent.com/assets/13947710/19095498/86aa1b54-8a5b-11e6-97cd-985011271fbf.png">  
+<br>
 Gráfica de Valor Ganado.  En esta se muestran los Linecharts de Ingeniería, Procura y Construcción junto con el linechart Global. 
- 
+</p>
 El uso de linechar se justifica porque este idioma es muy efectivo para la representación de grandes volúmenes de datos que tienen lugar en un intervalo continuo de tiempo, y esto sucede en este caso, ya que nos interesa ver el comportamiento del PV, EV y AC en periodo de tiempo. 
 
 Una ventaja importante del uso del line chart es que se puede observar fácilmente la subida o caída de los puntos de los datos además permite la comparación de los items gráficados, en este caso se poseen 3 items (PV, EV y AC) que se comparan en un mismo periodo.
  
 Para apoyar la **T3**, se utiliza un Popup que se muestra al darle clic al título del gráfico mostrando el gráfico seleccionado en tamaño más grande, de esta manera se puede realizar la comparación de una manera más clara por cada elemento.  Al mostrarse el popup, se podrá dar clic en un botón que permite visualizar los detalles en una tabla donde se mostrarán los valores para el EV, PV y AC en cada semana, esto apoyaría a la **T4**. 
 
-![Gráfico del Popup de cada elemento.](https://cloud.githubusercontent.com/assets/13947710/19095513/9b7ffea4-8a5b-11e6-9e2a-bceedc65db79.png)
-
-Gráfico del Popup de cada elemento. 
-
-![image](https://cloud.githubusercontent.com/assets/13947710/19095525/af22ae52-8a5b-11e6-94c9-9ad35d03939e.png)
-
-Tabla de Detalles de PV, EV, AC en cada semana para el elemento de Construcción. 
+<p align="center"> 
+<img src="https://cloud.githubusercontent.com/assets/13947710/19095513/9b7ffea4-8a5b-11e6-9e2a-bceedc65db79.png">  
+<br>
+Gráfico del Popup de cada elemento.</p>
+<p align="center"> 
+<img src="https://cloud.githubusercontent.com/assets/13947710/19095525/af22ae52-8a5b-11e6-94c9-9ad35d03939e.png">  
+<br>
+Tabla de Detalles de PV, EV, AC en cada semana para el elemento de Construcción.</p>
  
 Otra de las interacciones es permitir a los usuarios pasar el mouse sobre cada una de las líneas para que aparezca un *tooltip* que muestre el detalle de cual es el la ubicación en la fecha, la categoría seleccionada (EV, PV o AC) y el valor en moneda que representa.  También tendrá la manipulación que permite dar clic a cada una de las líneas para resaltarla sobre las demás. 
  
 Existe un control que permitirá el filtrado de las fechas de los anteriores gráficos (este control también filtrará los gráficos para la sección de Horas hombre y el de Productividad), este control filtrará desde la mínima fecha con incrementos de una semana. 
 
-![image](https://cloud.githubusercontent.com/assets/13947710/19095536/c495a42e-8a5b-11e6-8c5c-d5bc7bf576d5.png)
-
-Gráfica del control para el filtrado por fecha. 
+<p align="center"> 
+<img src="https://cloud.githubusercontent.com/assets/13947710/19095536/c495a42e-8a5b-11e6-8c5c-d5bc7bf576d5.png">  
+<br>
+Gráfica del control para el filtrado por fecha.</p>
  
 - Zoom pop up 
 - Tool tip que muestre la fecha y el valor en ese punto para cada gráfico 
@@ -99,7 +102,10 @@ Gráfica del control para el filtrado por fecha.
 Las marcas utilizadas son las Barras con posición vertical, las cuales poseen el canal del color para identificar el El programado y el Real.
 **T5, T6:**  2 gráficos que usan el idioma de "Bar chart" donde en el eje **x** se ubica las fechas con intervalos sobre los cuales se puede hacer zoom según la necesidad, donde el defecto es semanal y el minimo es el dia a dia, en el eje **y** se ubican los valores de las horas Hombre, usando el canal del color para cada uno de ellos.  
 
-![imagen5](https://cloud.githubusercontent.com/assets/1551324/19095319/b0e9cd66-8a5a-11e6-92c8-d566773f7770.png)
+<p align="center"> 
+<img src="https://cloud.githubusercontent.com/assets/1551324/19095319/b0e9cd66-8a5a-11e6-92c8-d566773f7770.png">  
+<br>
+Gráfica del horas hombre.</p>
 
 Otra de las interacciones es permitir a los usuarios pasar el mouse sobre cada una de las barras para que aparezca un tooltip que muestre el detalle de cual es el la ubicación en la fecha, la clase (indirecta, directa) y el valor en moneda que representa.  También tendrá la manipulación que permite dar clic a cada una de las barras o campos para resaltarla sobre las demás. 
  
