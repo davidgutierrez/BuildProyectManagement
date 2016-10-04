@@ -44,8 +44,8 @@ En cuanto a los **atributos**, la mayoría son de tipo cuantitativo secuencial. 
 - **T4.** *Identificar* en una semana en específica los valores para el *PV*, el *EV* y el *AC*. 
  
 #### Histograma 
-- **T1.** *Presentar* cuales son los las horas consumidas tanto directa como directamente 
-- **T2.** *Comparar* las Horas hombre Programadas con las Reales por cada periodo. 
+- **T5.** *Presentar* cuales son los las horas consumidas tanto directa como directamente 
+- **T6.** *Comparar* las Horas hombre Programadas con las Reales por cada periodo. 
  
 #### Productividad 
  
@@ -69,6 +69,8 @@ Las marcas utilizadas son las líneas con posición horizontal y vertical, las c
 Gráfica de Valor Ganado.  En esta se muestran los Linecharts de Ingeniería, Procura y Construcción junto con el linechart Global. 
  
 El uso de linechar se justifica porque este idioma es muy efectivo para la representación de grandes volúmenes de datos que tienen lugar en un intervalo continuo de tiempo, y esto sucede en este caso, ya que nos interesa ver el comportamiento del PV, EV y AC en periodo de tiempo. 
+
+Una ventaja importante del uso del line chart es que se puede observar fácilmente la subida o caída de los puntos de los datos además permite la comparación de los items gráficados, en este caso se poseen 3 items (PV, EV y AC) que se comparan en un mismo periodo.
  
 Para apoyar la **T3**, se utiliza un Popup que se muestra al darle clic al título del gráfico mostrando el gráfico seleccionado en tamaño más grande, de esta manera se puede realizar la comparación de una manera más clara por cada elemento.  Al mostrarse el popup, se podrá dar clic en un botón que permite visualizar los detalles en una tabla donde se mostrarán los valores para el EV, PV y AC en cada semana, esto apoyaría a la **T4**. 
 # ~~Imagen2~~  
@@ -89,7 +91,7 @@ Gráfica del control para el filtrado por fecha.
   
 #### Histograma de personal Horas hombre 
 Las marcas utilizadas son las Barras con posición vertical, las cuales poseen el canal del color para identificar el El programado y el Real.
-**T1, T2:**  2 gráficos que usan el idioma de "Bar chart" donde en el eje **x** se ubica las fechas con intervalos sobre los cuales se puede hacer zoom según la necesidad, donde el defecto es semanal y el minimo es el dia a dia, en el eje **y** se ubican los valores de las horas Hombre, usando el canal del color para cada uno de ellos.  
+**T5, T6:**  2 gráficos que usan el idioma de "Bar chart" donde en el eje **x** se ubica las fechas con intervalos sobre los cuales se puede hacer zoom según la necesidad, donde el defecto es semanal y el minimo es el dia a dia, en el eje **y** se ubican los valores de las horas Hombre, usando el canal del color para cada uno de ellos.  
 # ~~Imagen5~~  
 Otra de las interacciones es permitir a los usuarios pasar el mouse sobre cada una de las barras para que aparezca un tooltip que muestre el detalle de cual es el la ubicación en la fecha, la clase (indirecta, directa) y el valor en moneda que representa.  También tendrá la manipulación que permite dar clic a cada una de las barras o campos para resaltarla sobre las demás. 
  
@@ -99,4 +101,5 @@ Otra de las interacciones es permitir a los usuarios pasar el mouse sobre cada u
 ### Bibliografía 
 - Munzner, T. (2014). Visualization Analysis and Design. Boca Raton: CRC Press. 
 - Oracle. (30 de 09 de 2016). www.oracle.com. Obtenido de http://www.oracle.com/partners/esa/products/applications/primavera/get-started/index.html 
+- Enote. (30 de 09 de 2016). www.enotes.com.  Obetenido de http://www.enotes.com/homework-help/what-advantages-using-line-graph-represent-data-514721
 
