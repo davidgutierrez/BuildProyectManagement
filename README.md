@@ -1,0 +1,145 @@
+“Planteamiento del problema e identificación de las tareas de análisis - Schrader Camargo” 
+ 
+Imagen 
+ 
+Octubre 4 de 2016 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“Planteamiento del problema e identificación de las tareas de análisis - Schrader Camargo” 
+ 
+Eduard A. Avendaño Camacho, Cristian D. Gutierrez Gil, Carlos I. Zubieta León 
+Universidad de los Andes, Bogotá, Colombia 
+{ea.avendano, cd.gutierrez, ci.zubieta}@uniandes.edu.co 
+Fecha de presentación: Octubre 4 de 2016 
+ 
+ 
+ 
+Comprensión del Negocio:  
+ 
+About Schrader Camargo 
+ 
+Schrader Camargo Ingenieros Asociados S.A. es una empresa colombiana con sedes en varios países latinoamericanos que se encarga de la construcción e instalación de proyectos en los sectores de hidrocarburos, energía, industrial y minería. 
+Cliente Directo 
+ 
+El cliente directo es el Ingeniero Ismael Muñoz cuyo cargo es Director de PMO (Project Management Office).  Una de sus principales labores es presentar a la junta directiva los avances de cada uno de los proyectos comparándolos con la línea base. 
+ 
+Identificación del Problema 
+ 
+ Con el fin de garantizar y controlar cada uno de sus proyectos la oficina de administración de proyectos debe generar reportes semanales y mensuales de diferentes departamentos para verificar constantemente el avance del proyecto y la administración de dinero en cada área.  
+Estos reportes deben ser unificados de diferentes fuentes y formatos de datos que maneja cada departamento para ser presentado en un único formato que va dirigido al área gerencial. Basado en estos reportes finales unificados la gerencia toma decisiones de ajustes y restructuración en cada proyecto de ser necesario. Este formato final debe ser claro, entendible y debe resaltar las características más relevantes para el proyecto.  
+Actualmente el proceso de verificación y unificación de las fuentes se hace a mano a través de múltiples tablas de Excel, por otro lado, parte de la información es procesada por un software llamado primavera propietaria de Oracle que permite la administración y control de múltiples proyectos, para el caso del cliente lo que le aporta esta herramienta no es muy relevante ya que ellos no manejan múltiples proyectos a la vez. Primavera también genera una especie de dashboard que es muy restrictivo en cuanto a la visualización de los parámetros de interés del cliente. 
+El cliente ha venido trabajando en el mejoramiento del proceso de generación de los informe de : 
+Actividad y Desempeño. 
+Costos. 
+ 
+Con este propósito ha venido trabajando con los múltiples departamentos y con la gerencia para determinar los datos relevantes y la presentación de los datos para cada uno de los informes. Gracias a este trabajo se logro un dashboard de actividad y desempeño depurado con solo los parámetros de interés para la empresa. Para este dashbord el cliente necesita mejorar la forma de presentación y navegación, ya que actualmente debe gastar tiempo en la generación del dashboard cada vez que requiera generar el informe semanal y mensual para cada proyecto. 
+Sobre el dashboard de Costos el cliente se encuentra en el proceso de depuración y coordinación entre los departamentos y la gerencia. Por el momento cuentan con una base del tablero de costos  que no es definitivo, por lo cual requieren una propuesta para representar los costos que implica cada proyecto. 
+Adicionalmente nos manifestó que con el proceso actual le cuesta mucho esfuerzo y tiempo detectar desviaciones de tiempo y dinero en la ejecución de cada uno de los proyectos. 
+ 
+Caracterización de los Datos 
+What 
+Los datos están en forma de tabla (Todas las tablas se encuentran en un libro de Excel que fue obtenido desde el programa “Primavera”).  
+En cuanto a los atributos, la mayoría son de tipo cuantitativo secuencial.  Pero también existen unos con una semántica especial (Usan una semántica temporal), los cuales se utilizan para identificar una fecha (día, mes y año). 
+ 
+Why 
+Tabla de Actividades 
+ 
+ 
+Valor ganado 
+T1. Identificar cuales son las desviaciones en Ingeniería, Procura y Construcción que más influyen en el desempeño. 
+T2. Presentar la tendencia del Valor planeado (Pv), el valor Ganado (EV) y el Costo Actual (AC) en Global. 
+T3. Comparar la distribución del PV, el EV y el AC para las áreas de Ingeniería, Procura y Construcción. 
+T4. Identificar en una semana en específica los valores para el  PV, el EV y el AC. 
+ 
+Histograma 
+T1. Presentar cuales son los las horas consumidas tanto directa como directamente 
+T2. Comparar las Horas hombre Programadas con las Reales por cada periodo. 
+ 
+Productividad 
+ 
+How 
+  
+Dashboard de Desempeño 
+Tabla  de Actividades 
+A la tabla se le puede manipulas las columnas 
+Organizar por cada columna 
+Filtrar por cada columna 
+  
+Filtro por rango para valor ganado, histograma y productividad 
+ 
+Valor ganado 
+ 
+Las marcas utilizadas son las líneas con posición horizontal y vertical, las cuales poseen el canal del color para identificar el EV, PV y AC. 
+ 
+T1, T2 y T3:  4 gráficos que usan el idioma de "Line chart" donde en el eje x se ubica las fechas con intervalos de semana a semana, en el eje y se ubican los valores en moneda de Valor Planeado, Valor ganado y Costo Actual, usando el canal del color para cada uno de ellos.  
+Imagen 
+Gráfica de Valor Ganado.  En esta se muestran los Linecharts de Ingeniería, Procura y Construcción junto con el linechart Global. 
+ 
+El uso de linechar se justifica porque este idioma es muy efectivo para la representación de grandes volúmenes de datos que tienen lugar en un intervalo continuo de tiempo, y esto sucede en este caso, ya que nos interesa ver el comportamiento del PV, EV y AC en periodo de tiempo. 
+ 
+Para apoyar la T3, se utiliza un Popup que se muestra al darle clic al título del gráfico mostrando el gráfico seleccionado en tamaño más grande, de esta manera se puede realizar la comparación de una manera más clara por cada elemento.  Al mostrarse el popup, se podrá dar clic en un botón que permite visualizar los detalles en una tabla donde se mostrarán los valores para el EV, PV y AC en cada semana, esto apoyaría a la T4. 
+Imagen 
+Gráfico del Popup de cada elemento. 
+Imagen 
+Tabla de Detalles de PV, EV, AC en cada semana para el elemento de Construcción. 
+ 
+Otra de las interacciones es permitir a los usuarios pasar el mouse sobre cada una de las líneas para que aparezca un tooltip que muestre el detalle de cual es el la ubicación en la fecha, la categoría seleccionada (EV, PV o AC) y el valor en moneda que representa.  También tendrá la manipulación que permite dar clic a cada una de las líneas para resaltarla sobre las demás. 
+ 
+Existe un control que permitirá el filtrado de las fechas de los anteriores gráficos (este control también filtrará los gráficos para la sección de Horas hombre y el de Productividad), este control filtrará desde la mínima fecha con incrementos de una semana. 
+Imagen 
+Gráfica del control para el filtrado por fecha. 
+ 
+ 
+Zoom pop up 
+Tool tip que muestre la fecha y el valor en ese punto para cada gráfico 
+Que al dar clic en cada una de las líneas se resalta en cada uno de los gráficos 
+Drill down para cada gráfico 
+  
+Histograma de personal Horas hombre 
+Las marcas utilizadas son las Barras con posición vertical, las cuales poseen el canal del color para identificar el El programado y el Real. 
+T1, T2:  2 gráficos que usan el idioma de "Bar chart" donde en el eje x se ubica las fechas con intervalos sobre los cuales se puede hacer zoom según la necesidad, donde el defecto es semanal y el minimo es el dia a dia, en el eje y se ubican los valores de las horas Hombre, usando el canal del color para cada uno de ellos.  
+Imagen 
+Otra de las interacciones es permitir a los usuarios pasar el mouse sobre cada una de las barras para que aparezca un tooltip que muestre el detalle de cual es el la ubicación en la fecha, la clase (indirecta, directa) y el valor en moneda que representa.  También tendrá la manipulación que permite dar clic a cada una de las barras o campos para resaltarla sobre las demás. 
+ 
+ 
+/* 
+* Las tareas se definen como frases del dominio del problema. Se numeran e identifican. Y utilizan el lenguaje de Tamara. Cosas como mostrar, ilustrar, etc no deberían aparecer ahí. Háganle la vida fácil al lector subrayen los términos de Tamara. Cada Task tiene una acción y un target. Muchos no los pusieron. 
+* En el what hay que definir tipo de dataset y tipos de atributos, diciendo cuáles son de que tipo. Es muy importante, sino después como argumentan que algo es malo? 
+* En el how describan siempre marcas y *todos* los canales. Digan si *expresa* o si por el contrario usa separar, ordenar y alinear. También hay que describir si tiene *Manipulate*, *Facet* y *Reduce*. Muchos usaron *embed* para los textos en la gráfica, es discutible, pero yo prefiero decir que embed es cuándo incluyes una visualización completa dentro de otra no solo un texto. 
+y la más importante de todas: Se critica usando las tareas y los tipos de datos, no las opiniones personales. 
+Está bien decir: El modismo uno no es efectivo porque no permite realizar la T1 de la manera más eficiente, se podría hacer mucho mejor con un barchart. 
+Está mal decir: La mía es mejor porque si 
+(porque si digo que no de pronto el profe me baja en el examen) 
+ 
+Esto es lo que dice la página: >>>-propuesta y planteamiento del proyecto (20%) 
+Primera versión (Bibliografía, caracterización de los datos- what&why-, y planteamiento de solución -how) 
+Entrega: (4 de Octubre) discusión y realimentación (antes del 11 de Octubre) 
+ 
+es decir si requiere how mockups y descripciones 
+@everyone cada proyecto debe tener un proyecto en github, para mañana nos mandan la entrega ahí 
+El proyecto debe tener una descripción clara que tenga un enlace a la página de la clase, y que cualquier persona pueda entender de qué se trata 
+ 
+ 
+￼ 
+Bibliografía 
+Munzner, T. (2014). Visualization Analysis and Design. Boca Raton: CRC Press. 
+Oracle. (30 de 09 de 2016). www.oracle.com. Obtenido de http://www.oracle.com/partners/esa/products/applications/primavera/get-started/index.html 
+Schrader Camargo. (22 de 09 de 2016). www.schradercamargo.com. Obtenido de http://www.schradercamargo.com/nosotros/schrader-camargo/ 
+￼
