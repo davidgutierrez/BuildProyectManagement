@@ -109,5 +109,5 @@ Otra de las interacciones es permitir a los usuarios pasar el mouse sobre cada u
 - Munzner, T. (2014). Visualization Analysis and Design. Boca Raton: CRC Press. 
 - Oracle. (30 de 09 de 2016). www.oracle.com. Obtenido de http://www.oracle.com/partners/esa/products/applications/primavera/get-started/index.html 
 - Enote. (30 de 09 de 2016). www.enotes.com.  Obetenido de http://www.enotes.com/homework-help/what-advantages-using-line-graph-represent-data-514721
-- Fuente de ejemplo de visualizaciones.http://square.github.io/crossfilter/
+- Fuente de ejemplo de visualizaciones.  http://square.github.io/crossfilter/
 
