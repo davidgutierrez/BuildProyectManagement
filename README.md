@@ -96,7 +96,7 @@ Gráfica del control para el filtrado por fecha.</p>
 <p align="center"> 
 <img src="https://dennyglee.files.wordpress.com/2014/06/crossfilter_2014q1_full.png">  
 <br>
-Referencia de Filtro por Fecha.</p>
+Referencia de Filtro por Fecha.(CrossFilter)</p>
    
 #### Histograma de personal Horas hombre 
 Las marcas utilizadas son las Barras con posición vertical, las cuales poseen el canal del color para identificar el El programado y el Real.
@@ -109,8 +109,11 @@ Gráfica del horas hombre.</p>
 
 Otra de las interacciones es permitir a los usuarios pasar el mouse sobre cada una de las barras para que aparezca un tooltip que muestre el detalle de cual es el la ubicación en la fecha, la clase (indirecta, directa) y el valor en moneda que representa.  También tendrá la manipulación que permite dar clic a cada una de las barras o campos para resaltarla sobre las demás. 
  
+ ### Productividad 
  
+**T7, T10** Matriz de Line charts que permite comparar cada uno del parámetro de producción e identificar los parámetros que tiene relación entre sí.  Al incluir el tiempo dentro de la matriz se puede establecer los periodos en donde la producción está por debajo de la esperada. Para facilitar esta tare el grafico indicara sobre la línea los periodos de tiempos en donde las variables analizadas afectan la productividad del proyecto.
  
+**T8** Un filtro de los parámetros categóricos a seleccionar, permite agregar o quitar parámetro para ver con más detalle la relación entre cada uno de ellos. Este filtro indicara las categorías más interesantes para cada tipo de proyecto (Construcción, Electromecánica, Instalación, Mantenimiento, entre otros)
 ￼ 
 ### Bibliografía 
 - Munzner, T. (2014). Visualization Analysis and Design. Boca Raton: CRC Press. 
