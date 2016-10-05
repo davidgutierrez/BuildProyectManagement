@@ -92,6 +92,11 @@ Para navegar en un rango de periodo por cortes de la empresa (Semana, Mes) se ut
 <img src="https://cloud.githubusercontent.com/assets/13947710/19095536/c495a42e-8a5b-11e6-8c5c-d5bc7bf576d5.png">  
 <br>
 Gráfica del control para el filtrado por fecha.</p>
+
+<p align="center"> 
+<img src="https://dennyglee.files.wordpress.com/2014/06/crossfilter_2014q1_full.png">  
+<br>
+Referencia de Filtro por Fecha.</p>
    
 #### Histograma de personal Horas hombre 
 Las marcas utilizadas son las Barras con posición vertical, las cuales poseen el canal del color para identificar el El programado y el Real.
