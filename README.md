@@ -85,12 +85,7 @@ Existe un control que permitirá el filtrado de las fechas de los anteriores gr�
 <img src="https://cloud.githubusercontent.com/assets/13947710/19095536/c495a42e-8a5b-11e6-8c5c-d5bc7bf576d5.png">  
 <br>
 Gráfica del control para el filtrado por fecha.</p>
- 
-- Zoom pop up 
-- Tool tip que muestre la fecha y el valor en ese punto para cada gráfico 
-- Que al dar clic en cada una de las líneas se resalta en cada uno de los gráficos 
-- Drill down para cada gráfico 
-  
+   
 #### Histograma de personal Horas hombre 
 Las marcas utilizadas son las Barras con posición vertical, las cuales poseen el canal del color para identificar el El programado y el Real.
 **T5, T6:**  2 gráficos que usan el idioma de "Bar chart" donde en el eje **x** se ubica las fechas con intervalos sobre los cuales se puede hacer zoom según la necesidad, donde el defecto es semanal y el minimo es el dia a dia, en el eje **y** se ubican los valores de las horas Hombre, usando el canal del color para cada uno de ellos.  
