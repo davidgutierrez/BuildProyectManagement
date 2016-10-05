@@ -46,6 +46,11 @@ En cuanto a los **atributos**, la mayoría son de tipo cuantitativo secuencial. 
 - **T6.** *Comparar* las Horas hombre Programadas con las Reales por cada periodo. 
  
 #### Productividad 
+
+- **T7.** *Comparar* la distribución planeada de los parámetros más relevantes en el proyecto (Concreto, Acero, Estructura, Soldadura) vs la distribución real para determinar los cruces de tiempo y los periodos en donde no se cumplieron los valores esperados para cada parámetro.
+- **T8.** *Navegar* sobre los parámetros de productividad para seleccionar y *presentar* los parámetros más relevantes para cada proyecto.
+- **T9** *Presentar* el acumulado de cada corte en el periodo de fecha seleccionado, e *identificar* los rangos de producción en donde los parámetros observados se encuentran dentro del rango normal esperado.
+- **T10.** *Comparar* la relación entre los múltiples parámetros de producción para determinar causa y efectos que explique el comportamiento de la producción esperada vs la real.
  
 ### How 
   
