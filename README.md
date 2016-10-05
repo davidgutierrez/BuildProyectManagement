@@ -60,7 +60,7 @@ Dashboard de Desempeño
  
 Las marcas utilizadas son las líneas con posición horizontal y vertical, las cuales poseen el canal del color para identificar el EV, PV y AC. 
  
-**T1, T2 y T3**:  4 gráficos que usan el idioma de "Line chart" donde en el eje **x** se ubica las fechas con intervalos de semana a semana, en el eje **y** se ubican los valores en moneda de Valor Planeado, Valor ganado y Costo Actual, usando el canal del color para cada uno de ellos.  
+**T1, T2 y T3**: Para esta tarea se usa un multiChar Line en  donde el eje **x** representa las fechas con intervalos de periodos de corte de la empresa (Semanas y Meses), en el eje **y** se representa el costo del Valor Planeado, Valor ganado y Costo Actual, para estas categorias se usa el canal hue para identificarlas entre si.  
 
 <p align="center"> 
 <img src="https://cloud.githubusercontent.com/assets/13947710/19095498/86aa1b54-8a5b-11e6-97cd-985011271fbf.png">  
@@ -69,8 +69,8 @@ Gráfica de Valor Ganado.  En esta se muestran los Linecharts de Ingeniería, Pr
 </p>
 El uso de linechar se justifica porque este idioma es muy efectivo para la representación de grandes volúmenes de datos que tienen lugar en un intervalo continuo de tiempo, y esto sucede en este caso, ya que nos interesa ver el comportamiento del PV, EV y AC en periodo de tiempo. 
 
-Una ventaja importante del uso del line chart es que se puede observar fácilmente la subida o caída de los puntos de los datos además permite la comparación de los items gráficados, en este caso se poseen 3 items (PV, EV y AC) que se comparan en un mismo periodo.
- 
+Una ventaja importante del uso del line chart es que se puede identificar facilmente los minimos y maximo en donde la tendecia de los parametros cambia para  este caso se puede determinar  para cada categoria (PV, EV y AC) los periodos en donde estan por debajo de la estimacion planeada.
+
 Para apoyar la **T3**, se utiliza un Popup que se muestra al darle clic al título del gráfico mostrando el gráfico seleccionado en tamaño más grande, de esta manera se puede realizar la comparación de una manera más clara por cada elemento.  Al mostrarse el popup, se podrá dar clic en un botón que permite visualizar los detalles en una tabla (Embebed) donde se mostrarán los valores para el EV, PV y AC en cada semana, esto apoyaría a la **T4**. 
 
 <p align="center"> 
