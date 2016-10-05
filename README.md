@@ -84,7 +84,9 @@ Tabla de Detalles de PV, EV, AC en cada semana para el elemento de Construcción
  
 Otra de las interacciones es permitir a los usuarios pasar el mouse sobre cada una de las líneas para que aparezca un *tooltip* que muestre el detalle de cual es el la ubicación en la fecha, la categoría seleccionada (EV, PV o AC) y el valor en moneda que representa.  También tendrá la manipulación que permite dar clic a cada una de las líneas para resaltarla sobre las demás. 
  
-Existe un control que permitirá el filtrado de las fechas de los anteriores gráficos (este control también filtrará los gráficos para la sección de Horas hombre y el de Productividad), este control filtrará desde la mínima fecha con incrementos de una semana. 
+Existe un control que permitirá el filtrado de las fechas de los anteriores gráficos (este control también filtrará los gráficos para la sección de Horas hombre y el de Productividad), este control filtrará desde la mínima fecha con incrementos de una semana.
+
+Para navegar en un rango de periodo por cortes de la empresa (Semana, Mes) se utilizara un control que permite seleccionar rangos de tiempo y visualizar el comportamiento de las actividades. Este control se comunica con los demas para recalcular los periodos de tiempo.
 
 <p align="center"> 
 <img src="https://cloud.githubusercontent.com/assets/13947710/19095536/c495a42e-8a5b-11e6-8c5c-d5bc7bf576d5.png">  
