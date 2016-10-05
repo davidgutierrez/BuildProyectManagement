@@ -34,8 +34,6 @@ Los datos están en forma de **tabla** (Todas las tablas se encuentran en un lib
 En cuanto a los **atributos**, la mayoría son de tipo cuantitativo secuencial.  Pero también existen unos con una semántica especial (Usan una semántica temporal), los cuales se utilizan para identificar una fecha (día, mes y año). 
  
 ### Why 
-#### Tabla de Actividades 
- 
  
 #### Valor ganado 
 - **T1.** *Identificar* cuales son las desviaciones en *Ingeniería, Procura y Construcción* que más influyen en el desempeño. 
@@ -52,11 +50,6 @@ En cuanto a los **atributos**, la mayoría son de tipo cuantitativo secuencial. 
 ### How 
   
 Dashboard de Desempeño 
-#### Tabla  de Actividades 
-- A la tabla se le puede manipulas las columnas 
-- Organizar por cada columna 
-- Filtrar por cada columna 
-- Filtro por rango para valor ganado, histograma y productividad 
  
 #### Valor ganado 
  
@@ -73,7 +66,7 @@ El uso de linechar se justifica porque este idioma es muy efectivo para la repre
 
 Una ventaja importante del uso del line chart es que se puede observar fácilmente la subida o caída de los puntos de los datos además permite la comparación de los items gráficados, en este caso se poseen 3 items (PV, EV y AC) que se comparan en un mismo periodo.
  
-Para apoyar la **T3**, se utiliza un Popup que se muestra al darle clic al título del gráfico mostrando el gráfico seleccionado en tamaño más grande, de esta manera se puede realizar la comparación de una manera más clara por cada elemento.  Al mostrarse el popup, se podrá dar clic en un botón que permite visualizar los detalles en una tabla donde se mostrarán los valores para el EV, PV y AC en cada semana, esto apoyaría a la **T4**. 
+Para apoyar la **T3**, se utiliza un Popup que se muestra al darle clic al título del gráfico mostrando el gráfico seleccionado en tamaño más grande, de esta manera se puede realizar la comparación de una manera más clara por cada elemento.  Al mostrarse el popup, se podrá dar clic en un botón que permite visualizar los detalles en una tabla (Embebed) donde se mostrarán los valores para el EV, PV y AC en cada semana, esto apoyaría a la **T4**. 
 
 <p align="center"> 
 <img src="https://cloud.githubusercontent.com/assets/13947710/19095513/9b7ffea4-8a5b-11e6-9e2a-bceedc65db79.png">  
