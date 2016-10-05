@@ -7,7 +7,7 @@ Fecha de presentación: Octubre 4 de 2016
   
 ## Comprensión del Negocio:  
  
-### About The company
+### Acerca de la compañia
  
 Una multinacional que se encarga de la construcción e instalación de proyectos. 
 
