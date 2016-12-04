@@ -1,34 +1,37 @@
-# “Planteamiento del problema e identificación de las tareas de análisis” 
+# “Problem identification and task identification” 
  
 Eduard A. Avendaño Camacho, Cristian D. Gutierrez Gil, Carlos I. Zubieta León 
 Universidad de los Andes, Bogotá, Colombia 
 {ea.avendano, cd.gutierrez, ci.zubieta}@uniandes.edu.co 
 Fecha de presentación: Octubre 4 de 2016 
   
-## Comprensión del Negocio:  
+## Business Comprehension:  
  
-### Acerca de la compañia
+### About the company
  
-Una multinacional que se encarga de la construcción e instalación de proyectos. 
+AGZ is a multinational what work in the field of the construction and instalation of Industries projets.
 
-### Cliente Directo 
+### Direct Client
  
-El cliente directo es el Director de PMO (Project Management Office).  Una de sus principales labores es presentar a la junta directiva los avances de cada uno de los proyectos comparándolos con la línea base. 
+Our client is the PMO (Project Management Office). One of its main tasks is to present to the board of directors the progress of each of the projects compared to the baseline. 
  
-### Identificación del Problema 
- 
-Con el fin de garantizar y controlar cada uno de sus proyectos **la oficina de administración de proyectos** debe generar reportes semanales y mensuales de diferentes departamentos para verificar constantemente el avance del proyecto y la administración de dinero en cada área.  
-Estos reportes deben ser unificados de diferentes fuentes y formatos de datos que maneja cada departamento para ser presentado en un único formato que va dirigido al área gerencial. Basado en estos reportes finales unificados la gerencia toma decisiones de ajustes y restructuración en cada proyecto de ser necesario. Este formato final debe ser claro, entendible y debe resaltar las características más relevantes para el proyecto.  
-Actualmente el proceso de **verificación y unificación de las fuentes se hace a mano** a través de múltiples tablas de Excel, por otro lado, parte de la información es procesada por un software llamado **primavera** propietaria de **Oracle** que permite la administración y control de múltiples proyectos, para el caso del cliente lo que le aporta esta herramienta no es muy relevante ya que ellos **no manejan múltiples proyectos a la vez**. Primavera también genera una especie de dashboard que es **muy restrictivo en cuanto a la visualización de los parámetros de interés del cliente**. 
-El cliente ha venido trabajando en el mejoramiento del proceso de generación de los informe de : 
-- Actividad y Desempeño. 
-- Costos. 
+### Identification of the problem 
+
+In order to guarantee and control each of its projects the **PMO** must generate weekly and monthly reports from different departments to constantly verify the progress of the project and the administration of Money and Activities in each area.
+
+These reports should be unified from different sources and formats of data that each department handles to be presented in a single format that is directed to the management area. Based on these unified final reports, management makes adjustments and restructuring decisions in each project, if necessary. This final format should be clear, understandable and should highlight the characteristics most relevant to the project.
+
+Currently the process of ** verification and unification of the sources is done by hand ** through multiple tables of Excel, on the other hand, part of the information is processed by software called ** Primavera ** by ** Oracle ** that allows the administration and control of multiple projects, for this case, the benefit provided by the tool is not relevant, because the client **does not handle multiple projects at the same time**. Primavera also generates a kind of dashboard that is **very restrictive in terms of displaying the parameters of interest of the client**. 
+
+The client has been working on improving the process of generating the reports of:
+- Activity and Performance.
+- Costs. 
  
 Con este propósito ha venido trabajando con los múltiples departamentos y con la gerencia para determinar los datos relevantes y la presentación de los datos para cada uno de los informes. Gracias a este trabajo se logro un dashboard de actividad y desempeño depurado con solo los parámetros de interés para la empresa. Para este dashbord el cliente necesita mejorar la forma de presentación y navegación, ya que actualmente **debe gastar tiempo en la generación del dashboard cada vez que requiera generar el informe semanal y mensual para cada proyecto**. 
 Sobre el dashboard de Costos el cliente se encuentra en el proceso de depuración y coordinación entre los departamentos y la gerencia. **Por el momento cuentan con una base del tablero de costos  que no es definitivo**, por lo cual requieren una propuesta para representar los costos que implica cada proyecto. 
 Adicionalmente nos manifestó que con el proceso actual le cuesta mucho esfuerzo y tiempo **detectar desviaciones de tiempo y dinero en la ejecución de cada uno de los proyectos.** 
  
-## Caracterización de los Datos 
+## Characterization of the Data 
 ### What 
 Los datos están en forma de **tabla** (Todas las tablas se encuentran en un libro de Excel que fue obtenido desde el programa “Primavera”).  
 En cuanto a los **atributos**, la mayoría son de tipo cuantitativo secuencial.  Pero también existen unos con una semántica especial (Usan una semántica temporal), los cuales se utilizan para identificar una fecha (día, mes y año). 
